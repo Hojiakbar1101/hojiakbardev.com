@@ -15,7 +15,8 @@ const ContactExperience = () => {
         castShadow
         intensity={2.5}
         color="#ffd9b3"
-      />
+      /> p0 
+      oi;bp9r mp[f. lk usrp pyxfgrr]
 
       <OrbitControls
         enableZoom={false}
