@@ -26,7 +26,7 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
         <a href="#hero" className="logo">
-          PLT code
+          HOJIAKBAR
         </a>
 
         <nav className="desktop">
@@ -43,13 +43,19 @@ const NavBar = () => {
         </nav>
 
         <a href="#contact" className="contact-btn group">
-          <div className="inner">
-            <span>Contact me</span>
-          </div>
+          <a
+            href="https://t.me/khojiakbar_dev1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="inner">
+              <span>Bog'lanish</span>
+            </div>
+          </a>
         </a>
       </div>
     </header>
   );
-}
+};
 
 export default NavBar;

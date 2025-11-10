@@ -43,8 +43,8 @@ const Contact = () => {
     <section id="contact" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
-          title="Get in Touch – Let’s Connect"
-          sub="💬 Have questions or ideas? Let’s talk! 🚀"
+          title="Aloqa qiling - Ulanamiz!"
+          sub="Savollaringiz yoki fikrlaringiz bormi? Keling, gaplashaylik! "
         />
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
@@ -55,49 +55,49 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">Your name</label>
+                  <label htmlFor="name">sizning ismingiz</label>
                   <input
-                    type="text"
+                    type="matn"
                     id="name"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="What’s your good name?"
+                    placeholder="Sizning ismingiz nima?"
                     required
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor="email">sizning emailingiz</label>
                   <input
                     type="email"
                     id="email"
                     name="email"
                     value={form.email}
                     onChange={handleChange}
-                    placeholder="What’s your email address?"
+                    placeholder="E-pochta manzilingiz qanaqa?"
                     required
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message">Your Message</label>
+                  <label htmlFor="message">sizning xabaringiz</label>
                   <textarea
                     id="message"
                     name="message"
                     value={form.message}
                     onChange={handleChange}
-                    placeholder="How can I help you?"
+                    placeholder="Sizga qanday yordam berishim mumkin?"
                     rows="5"
                     required
                   />
                 </div>
 
-                <button type="submit">
+                <button type="Yuborish" disabled={loading}>
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">
-                      {loading ? "Sending..." : "Send Message"}
+                      {loading ? "Yuborilayapti..." : "Yuborish"}
                     </p>
                     <div className="arrow-wrapper">
                       <img src="/images/arrow-down.svg" alt="arrow" />

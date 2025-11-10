@@ -53,12 +53,12 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Kuchli, foydalanuvchilar uchun qulay ilova yordamida talab boʻyicha sayohatlar soddalashtirilgan
+                Rayde deb nomlangan
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                Tez ishlash uchun React Native, Expo va TailwindCSS bilan yaratilgan ilova,
+                foydalanuvchi uchun qulay tajriba.
               </p>
             </div>
           </div>
@@ -71,14 +71,14 @@ const AppShowcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Kutubxonani boshqarish platformasi</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>YC Directory - Startup Showcase ilovasi</h2>
             </div>
           </div>
         </div>

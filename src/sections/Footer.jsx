@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <p>Terms & Conditions</p>
+          <p>Foydalanish shartlari</p>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Saidrasulov Hojiakbar. All rights reserved.
+            © {new Date().getFullYear()} Saidrasulov Hojiakbar. Barcha huquqlar himoyalangan.
           </p>
         </div>
       </div>
